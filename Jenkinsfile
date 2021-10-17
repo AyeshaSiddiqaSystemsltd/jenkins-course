@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy to Staging') {
           agent {
             node {
-              label 'java8'
+              label 'java 8'
             }
 
           }
